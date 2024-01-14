@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="container">
+        <form>
+          <h2>Stay updated!</h2>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+          <div id="benefits">
+            <div class="benefit">
+              <img src="./assets/images/icon-success.svg" alt="Checkmark" />
+              <p>Product discovery and building what matters</p>
+            </div>
+            <div class="benefit">
+              <img src="./assets/images/icon-success.svg" alt="Checkmark" />
+              <p>Measuring to ensure updates are a success</p>
+            </div>
+            <div class="benefit">
+              <img src="./assets/images/icon-success.svg" alt="Checkmark" />
+              <p>And much more!</p>
+            </div>
+          </div>
+
+          <fieldset>
+            <label for="email">Email address</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="email@company.com"
+              id="email"
+            />
+          </fieldset>
+          <input
+            type="submit"
+            id="submit"
+            class="submit"
+            value="Subscribe to monthly newsletter"
+          />
+        </form>
+
+        <div id="image-box"></div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">jerome</a>.
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
